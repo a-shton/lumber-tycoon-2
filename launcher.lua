@@ -1,5 +1,8 @@
-if game.PlaceId == "2248408710" then
-  loadstring(game:HttpGet('https://raw.githubusercontent.com/lua-ware/luaware/main/destructionsimulator.lua'), true)()
-elseif game.PlaceId == "292439477"
-  loadstring(game:HttpGet('https://raw.githubusercontent.com/lua-ware/luaware/main/phantomforces.lua'), true)()
+function load(link)
+  loadstring(game:HttpGet(link))()
+end)
+
+if game.PlaceId == 1962086868 then
+  print("Luaware | Tower of Hell")
+  
 end
